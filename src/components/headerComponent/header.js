@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
     return (
-      <header>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a className="navbar-brand" href="#">E | R</a>
+      <header className="sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="myNav">
+          <a className="navbar-brand" href="#home">E | R</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -15,10 +15,10 @@ class Header extends Component {
                 <a className="nav-link" href="#home">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#work">Work</a>
+              <a className="nav-link" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">About</a>
+                <a className="nav-link" href="#work">Work</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">Contact</a>

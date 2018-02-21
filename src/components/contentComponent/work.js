@@ -1,13 +1,79 @@
 import React, { Component } from 'react';
 
+
 class Work extends Component {
   render() {
     return (
-      <div className="container-fluid text-center" id="work">
-        <h1>Work</h1>
-        <p>
-          "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-        </p>
+      <div className="container-fluid text-center contentHeight" id="work">
+        <h1>Client Work</h1>
+        <div className="container ">
+          <div className="content">
+              <div className="content-overlay__M"></div>
+              <img className="content-image" src="../images/misty.png"/>
+              <div className="content-details fadeIn-bottom">
+                <h3 className="content-title">Misty Robotics</h3>
+                <p className="content-text">C# | Xamarin | iOS</p>
+              </div>
+          </div>
+        </div>
+
+        <div className="container ">
+          <div className="content">
+              <div className="content-overlay__R"></div>
+              <img className="content-image" src="../images/channelRocket.png"/>
+              <div className="content-details fadeIn-bottom">
+                <h3>Channel Rocket</h3>
+                <p>Ruby on Rails | Angular | MySql</p>
+              </div>
+          </div>
+        </div>
+
+        <div className="container ">
+          <div className="content">
+              <div className="content-overlay__Z"></div>
+              <img className="content-image" src="../images/zayo.png"/>
+              <div className="content-details fadeIn-bottom">
+                <h3>Zayo Group</h3>
+                <p>Apex | Salesforce | Javascript</p>
+              </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="content">
+              <div className="content-overlay__C"></div>
+              <img className="content-image" src="../images/comptia.png"/>
+              <div className="content-details fadeIn-top">
+                <h3>Comptia</h3>
+                <p>Angular | Javascript </p>
+              </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="content">
+              <div className="content-overlay__H"></div>
+              <img className="content-image" src="../images/hva.png"/>
+              <div className="content-details fadeIn-top">
+                <h3>Homevestors of America</h3>
+                <p>C# | Angular | ASP.Net</p>
+              </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="content">
+              <div className="content-overlay__I"></div>
+              <img className="content-image" src="../images/inx.png"/>
+              <div className="content-details fadeIn-top">
+                <h3>Inxathlete</h3>
+                <p>WordPress | Javascript</p>
+              </div>
+          </div>
+        </div>
+
+
+
       </div>
     );
   }
